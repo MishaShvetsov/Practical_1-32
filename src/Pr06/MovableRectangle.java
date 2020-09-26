@@ -40,6 +40,7 @@ class MovableRectangle extends Rectangle implements Movable {
                 ", getHeight=" + getHeight() +
                 ", getWidth=" + getWidth() +
                 ", color=" + getColor() +
+                ", center=" + center +
                 '}';
     }
 }
