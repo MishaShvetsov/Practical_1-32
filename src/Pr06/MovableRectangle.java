@@ -6,6 +6,7 @@ class MovableRectangle extends Rectangle implements Movable {
     private Point center;
     public MovableRectangle(boolean isFilled, String color, double width, double height) {
         super(isFilled, color, width, height);
+        center = new Point(5, 3);
     }
 
     public Point getCenter() {
