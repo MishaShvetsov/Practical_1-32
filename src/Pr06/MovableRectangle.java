@@ -11,10 +11,7 @@ class MovableRectangle extends Rectangle implements Movable {
         center = new Point(5, 3);
     }
 
-    @Override
-    public void String(int right, int down) {
 
-    }
 
     public Point getCenter() {
 
